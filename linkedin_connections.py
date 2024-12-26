@@ -42,8 +42,8 @@ except Exception as e:
 time.sleep(2)
 
 # Set environment variables (for testing purposes only)
-os.environ["LINKEDIN_USERNAME"] = "kalyanitists22@gmail.com"
-os.environ["LINKEDIN_PASSWORD"] = "Kalyani@22"
+os.environ["LINKEDIN_USERNAME"] = "your example@mail.com"
+os.environ["LINKEDIN_PASSWORD"] = "your example password"
 
 # Get username and password from environment variables
 username = os.getenv("LINKEDIN_USERNAME")
@@ -69,7 +69,7 @@ except Exception as e:
 time.sleep(5)
 
 # Open LinkedIn search page with query
-search_query = "pallavi karumuri"
+search_query = "data science "
 try:
     driver.get(f"https://www.linkedin.com/search/results/people/?keywords={search_query}")
 except Exception as e:
